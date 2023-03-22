@@ -11,10 +11,8 @@ env:
   REPO_DEPTH: 1
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
-  #FILES_PATH: files
-  #PATCHES_PATH: patches
   UPLOAD_RELEASE: true
-  TZ: UTC
+  TZ: Asia/Ho Chi Minh
 
 jobs:
   build:
