@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt.git
-  REPO_BRANCH: openwrt-19.07
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
+  REPO_BRANCH: openwrt-18.06-k5.4
   REPO_DEPTH: 1
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
